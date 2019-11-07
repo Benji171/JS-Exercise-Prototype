@@ -114,10 +114,10 @@ Baby.prototype.play = function(){return `Playing with ${this.favoriteToy}`}
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. in the global scope this means the console
+  2. whatever is left of the dot when a function is called is the object and "this"
+  3. in a constructor function "this" refers to the instance of the object that is made
+  4. whenever you use call or apply this is explicitly defined as the first argument
 */
 
 
